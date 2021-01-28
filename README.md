@@ -11,11 +11,12 @@ Good stuff.
  ALSO opens the **GUI**
 
 # GUI...
-Dead-simple. TKinter?
+Dead-simple. TKinter!
 ## Page 1
+IBKR Client Portal Authentication. Handled for us.
 1) Text box for username
 2) Text box for password
-3) Text box for LOGIN...Login saves USERNAME and PASSWORD to variables
+3) Authenticates IBKR API
 ## Page 2
 1) Text box for quantity
 2) Text box for price
