@@ -16,7 +16,8 @@ Dead-simple. TKinter!
 IBKR Client Portal Authentication. Handled for us.
 1) Text box for username
 2) Text box for password
-3) Authenticates IBKR API
+3) Login Button
+4) Starts up page 2 on login.
 ## Page 2
 1) Text box for quantity
 2) Text box for price
