@@ -8,7 +8,7 @@ Good stuff.
 1) Opens default browser
 2) Takes you to brokerage "create account" webpage
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
- Once account has been made, user can input credentials into **page 2**
+ ALSO opens the **GUI**
 
 # GUI
 Dead-simple. TKinter?
