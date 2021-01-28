@@ -4,8 +4,7 @@ Helps you make an account.
 Good stuff. 
 
 
-
-## Page 1
+# On Program Run...
 1) Opens default browser
 2) Takes you to brokerage "create account" webpage
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
