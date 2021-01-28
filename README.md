@@ -10,7 +10,7 @@ Good stuff.
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
  ALSO opens the **GUI**
 
-# GUI
+# GUI...
 Dead-simple. TKinter?
 ## Page 1
 1) Text box for username
@@ -22,9 +22,7 @@ Dead-simple. TKinter?
 3) Button for buy...Should call a function *buttonClicked( )*
     
 
-# INTERFACE
-
-## The buttonClicked() function...
+# Inside the buttonClicked() Function...
 1) You will import the file *apiWrapper.py*
 2) You will call the function *apiWrapper.limit_buy(username, password, quantity, price)
 3) The *apiWrapper.limit_buy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
