@@ -24,6 +24,6 @@ Dead-simple. TKinter?
 
 # Inside the buttonClicked() Function...
 1) You will import the file *apiWrapper.py*
-2) You will call the function *apiWrapper.limit_buy(username, password, quantity, price)*
-3) The *apiWrapper.limit_buy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
+2) You will call the function *apiWrapper.limitBuy(username, password, quantity, price)*
+3) The *apiWrapper.limitBuy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
 
