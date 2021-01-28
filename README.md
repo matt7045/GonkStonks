@@ -3,8 +3,7 @@ Lets you buy and sell a stock.
 Helps you make an account.
 Good stuff. 
 
-# GUI
-Dead-simple. TKinter?
+
 
 ## Page 1
 1) Opens default browser
@@ -12,11 +11,22 @@ Dead-simple. TKinter?
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
  Once account has been made, user can input credentials into **page 2**
 
+# GUI
+Dead-simple. TKinter?
+## Page 1
+1) Text box for username
+2) Text box for password
+3) Text box for LOGIN...Login saves USERNAME and PASSWORD to variables
 ## Page 2
 1) Text box for quantity
 2) Text box for price
-3) Button for buy... Calls a function named *buttonClicked( quantity, price )
+3) Button for buy...Should call a function *buttonClicked( )*
+    
 
-# Interface, AKA the code inside the buttonClicked( quantity, price ) function...
-1) Does API call to buy the sacred gonkstonk, at *quantity, price* I'll do. 
-#
+# INTERFACE
+
+## The buttonClicked() function...
+1) You will import the file *apiWrapper.py*
+2) You will call the function *apiWrapper.limit_buy(username, password, quantity, price)
+3) The *apiWrapper.limit_buy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
+
