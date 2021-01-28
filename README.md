@@ -10,7 +10,7 @@ Good stuff.
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
  ALSO opens the **GUI**
 
-# GUI...
+# GUI...All Pages open at once?
 Dead-simple. TKinter!
 ## Page 1
 IBKR Client Portal Authentication. Handled for us.
