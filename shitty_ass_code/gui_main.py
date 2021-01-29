@@ -52,7 +52,14 @@ def buttonClicked():
     price              = round(float(price_entry.get()), 2)
     live_api_key_id    = str(api_key_entry.get())
     live_secret_key_id = str(secret_key_entry.get())
-    apiWrapper.limitBuy(live_api_key_id, live_secret_key_id, price, quantity)
+    try:
+        apiWrapper.limitBuy(live_api_key_id, live_secret_key_id, price, quantity)
+        done_label =Label(root, text = 'Placed an order to buy '+str(quantity)+' GME stonks.')
+        canvas_main.create_window(370,280, window=done_label)
+    except Exception as e:
+        done_label =Label(root, text = 'Could not place order to buy '+str(quantity)+' GME stonks. See terminal for details.')
+        canvas_main.create_window(370,280, window=done_label)
+        print(e)
 button_clicked = Button(text = 'buy stonks', command = buttonClicked)
 canvas_main.create_window(300, 220, window=button_clicked)
 

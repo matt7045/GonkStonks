@@ -8,6 +8,7 @@ IF NOT "%version:~0,8%"=="Python 3" (
     py_installer39.exe /quiet PrependPath=1
     ) ELSE (
     bitsadmin /transfer myDownloadJob /download /priority FOREGROUND https://www.python.org/ftp/python/3.9.1/python-3.9.1.exe %CD%/py_installer39.exe
+    echo Installing Python...Please be patient! The installer will quit when done. Once it quite, click on StartGonkStonks, to start gonk stonks. 
     py_installer39.exe /quiet PrependPath=1
     )
     del py_installer39.exe
