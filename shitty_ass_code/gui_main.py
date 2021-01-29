@@ -49,10 +49,10 @@ canvas_main.create_window(300, 180, window=p_label)
 #buttonCliked button
 def buttonClicked():
     quantity           = int(quantity_entry.get())
-    price              = round(price_entry.get(), 2)
+    price              = round(float(price_entry.get()), 2)
     live_api_key_id    = str(api_key_entry.get())
     live_secret_key_id = str(secret_key_entry.get())
-    apiWrapper.limitBuy(live_api_key_id, live_secret_key, price, quantity)
+    apiWrapper.limitBuy(live_api_key_id, live_secret_key_id, price, quantity)
 button_clicked = Button(text = 'buy stonks', command = buttonClicked)
 canvas_main.create_window(300, 220, window=button_clicked)
 
