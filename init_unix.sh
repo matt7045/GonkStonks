@@ -8,7 +8,7 @@ else
   curl https://www.python.org/ftp/python/3.9.1/python-3.9.1-macosx10.9.pkg --output python.pkg
   open python.pkg
 fi
-pip install alpaca_trade_api
+pip3 install alpaca_trade_api
 
 echo {} > cache.json
 echo 'Starting Gonk Stonks! Good Luck!'
