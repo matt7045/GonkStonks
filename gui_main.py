@@ -1,7 +1,3 @@
-#! python3
-#boxes
-
-
 #import tkinter as tk
 from tkinter import *
 import apiWrapper
