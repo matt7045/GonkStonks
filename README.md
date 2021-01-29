@@ -6,24 +6,21 @@ Good stuff.
 
 # On Program Run...
 1) Opens default browser
-2) Takes you to brokerage "create account" webpage
+2) Takes you to Alpaca brokerage "create account" webpage
 3) User makes brokerage account. (Can't automate this process because of CAPTCHA)
  ALSO opens the **GUI**
 
-# GUI...All Pages open at once?
+# GUI...
 Dead-simple. TKinter!
 ## Page 1
-IBKR Client Portal Authentication. Handled for us.
-1) Text box for username
-2) Text box for password
-3) Login Button
-4) Starts up page 2 on login.
+0) Include screenshot *Key Generation Instructions.png*
+1) Text box for entering Secret key
+2) Text Box for entering API key ID
+3) Login button, that opens **Page 2**
 ## Page 2
 1) Text box for quantity
 2) Text box for price
 3) Button for buy...Should call a function *buttonClicked( )*
-    
-
 # Inside the buttonClicked() Function...
 1) You will import the file *apiWrapper.py*
 2) You will call the function *apiWrapper.limitBuy(username, password, quantity, price)*
