@@ -25,6 +25,6 @@ Dead-simple. TKinter!
 2) You will call the function *apiWrapper.limitBuy(username, password, quantity, price)*
 3) The *apiWrapper.limitBuy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
 
-#Permissions needed
+# Permissions needed
 1) Will install python 3.9 (If not already installed)
 2) Will pip-install alpaca_trade_api
