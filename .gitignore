@@ -1,6 +1,8 @@
 #Ignore cached items
 cache.json
 *.pkg
+*.exe
+version.txt
 
 
 # Byte-compiled / optimized / DLL files
