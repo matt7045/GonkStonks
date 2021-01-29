@@ -36,7 +36,7 @@ p_label = Label(root, text = 'price')
 canvas_main.create_window(150, 140, window=p_label)
 
 #buttonCliked button
-button_clicked = Button(text = 'buy stonks'), command = buttonClicked)
+button_clicked = Button(text = 'buy stonks', command = buttonClicked)
 canvas_main.create_window(200, 180, window=button_clicked)
 
 def buttonClicked():
