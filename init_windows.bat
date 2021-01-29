@@ -15,6 +15,7 @@ IF NOT "%version:~0,10%"=="Python 3.9" (
     echo Python already installed.
     )
 del version.txt
+echo {} > cache.json
 python -m pip install requests
 pip install alpaca_trade_api
 
