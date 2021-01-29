@@ -11,17 +11,14 @@ IF NOT "%version:~0,8%"=="Python 3" (
     py_installer39.exe
     )
     del py_installer39.exe
-    start pip_stuff.bat
-    del version.txt
-    echo {} > cache.json
 ) ELSE (
     echo Python already installed.
-    del version.txt
-    echo {} > cache.json
-    echo Starting Gonk Stonks! Good Luck!
-
-    python main.py
     )
-
+del version.txt
+echo {} > cache.json
+echo Starting Gonk Stonks! Good Luck!
+python -m pip install requests
+python -m pip install alpaca_trade_api
+python main.py
 
 
