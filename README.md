@@ -3,7 +3,6 @@ Lets you buy and sell a stock.
 Helps you make an account.
 Good stuff. 
 
-
 # On Program Run...
 1) Opens default browser
 2) Takes you to Alpaca brokerage "create account" webpage
@@ -26,3 +25,6 @@ Dead-simple. TKinter!
 2) You will call the function *apiWrapper.limitBuy(username, password, quantity, price)*
 3) The *apiWrapper.limitBuy(username, password, quantity, price)* function will handle all backend API ish, and place the order. I'll do. 
 
+# Permissions needed
+1) Will install python 3.9 (If not already installed)
+2) Will `pip-install alpaca_trade_api`
