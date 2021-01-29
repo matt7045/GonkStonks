@@ -27,4 +27,4 @@ Dead-simple. TKinter!
 
 # Permissions needed
 1) Will install python 3.9 (If not already installed)
-2) Will pip-install alpaca_trade_api
+2) Will `pip-install alpaca_trade_api`
