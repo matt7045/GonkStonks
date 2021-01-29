@@ -36,13 +36,14 @@ p_label = Label(root, text = 'price')
 canvas_main.create_window(150, 140, window=p_label)
 
 #buttonCliked button
-button_clicked = Button(text = 'buy stonks', command = buttonClicked)
-canvas_main.create_window(200, 180, window=button_clicked)
-
 def buttonClicked():
     quantity           = int(quantity)
     price              = float(price)
     live_api_key_id    = None
     live_secret_key_id = None
     apiWrapper.limitBuy(live_api_key_id, live_secret_key, price, quantity)
+button_clicked = Button(text = 'buy stonks', command = buttonClicked)
+canvas_main.create_window(200, 180, window=button_clicked)
+
+
 root.mainloop()
