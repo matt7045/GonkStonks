@@ -12,4 +12,4 @@ pip3 install alpaca_trade_api
 
 echo {} > cache.json
 echo 'Starting Gonk Stonks! Good Luck!'
-python main.py
+python3 main.py
